@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(85, 81, 81);
+}
+.header{
+    display: flex;
+    padding: 10px 10%;
+    background-color: #2163c0;
+    width: 100%;
+}
+.logo{
+    padding: 10px;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+.top-links li{
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0px 100px;
+    font-size: 20px;
+    
+}
+.top-links a{
+    color: black;
+    text-decoration: none;
+}
+.top-links a:hover{
+    color: grey;
+}
+.nav{
+    display: flex;
+    align-items: center;
+   width: 100%;
+   justify-content: center;
+}
+.top-links{
+    justify-content: flex-end;
+    display: flex;
+    width: 50%;
+}
+
+.Seal{
+    display: flex;
+    border: solid 5px #2163c0; 
+    border-radius: 50%;
+    margin: 20px;
+
+}
+.image{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.image p{
+    width: 500px;
+}
+.Seals img{
+    border-radius: 50%;
+    width: 25%;
+    margin: 75px;
+    border: solid #2163c0 5px;
+
+}
+.Seals{
+    display: flex;
+    background-color: #2163c0;
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2163c0;
+}
+.text p{
+    width: 25%;
+    margin-left: 75px;
+}
+.text h1{
+    width: 25%;
+    margin-left: 75px;
+}
+.signup p{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    }
+    .promo{
+        font-size: 100px;
+    }
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.email{
+    margin-right: 25px;
+}
+.footer{
+    background-image: url(fatseal.jpg);
+}
+
+.cure{
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 50px;
+    background-color: rgb(202, 185, 185);
+}
